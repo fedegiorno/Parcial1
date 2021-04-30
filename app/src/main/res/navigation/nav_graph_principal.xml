@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Desarrollo de Aplicaciones para Dispositivos Moviles
+TRABAJO PRACTICO
+Clase:  27 de abril de 2021
+Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
+
+nav_graph_principal.xml
+Ubicacion: res.navigation
+
+-->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_principal"
+    app:startDestination="@id/containerFragment">
+
+    <fragment
+        android:id="@+id/containerFragment"
+        android:name="com.fedegiorno.clase27abr.fragments.ContainerFragment"
+        android:label="ContainerFragment" />
+    <fragment
+        android:id="@+id/fragmentDetail1"
+        android:name="com.fedegiorno.clase27abr.fragments.FragmentDetail1"
+        android:label="fragment_detail1"
+        tools:layout="@layout/fragment_detail1" />
+    <fragment
+        android:id="@+id/fragmentDetail2"
+        android:name="com.fedegiorno.clase27abr.fragments.FragmentDetail2"
+        android:label="fragment_detail2"
+        tools:layout="@layout/fragment_detail2" />
+    <fragment
+        android:id="@+id/fragmentDetail3"
+        android:name="com.fedegiorno.clase27abr.fragments.FragmentDetail3"
+        android:label="fragment_detail3"
+        tools:layout="@layout/fragment_detail3" />
+</navigation>

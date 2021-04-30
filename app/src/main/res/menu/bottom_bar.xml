@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Desarrollo de Aplicaciones para Dispositivos Moviles
+TRABAJO PRACTICO
+Clase:  27 de abril de 2021
+Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
+
+bottom_bar.xml
+Ubicacion: res.menu
+
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomNavbarFragment1"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="San Fernando" />
+
+    <item
+        android:id="@+id/bottomNavbarFragment2"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="San Isidro"
+        />
+    <item
+        android:id="@+id/bottomNavbarFragment3"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Tigre" />
+    <item
+        android:id="@+id/bottomNavbarFragment4"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Vicente Lopez" />
+
+</menu>
