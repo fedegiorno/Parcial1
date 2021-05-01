@@ -5,7 +5,7 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 PreferenceActivity.kt
-Ubicacion: com.fedegiorno.clase27abr.activities
+Ubicacion: com.fedegiorno.clase27abr2021.activities
 
 Esta es la activity que se presentara los datos persistentes de la aplicacion
 (PREFERENCES)

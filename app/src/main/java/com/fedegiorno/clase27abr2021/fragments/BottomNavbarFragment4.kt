@@ -5,7 +5,7 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 BottomNavbarFragment4
-Ubicacion: com.fedegiorno.clase27abr.fragments
+Ubicacion: com.fedegiorno.clase27abr2021.fragments
 
 Este fragmento mostrara lo correspondiente a la cuarta division del Nav Bar
  */

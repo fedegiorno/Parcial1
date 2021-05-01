@@ -5,7 +5,7 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 SplashFragment.kt
-Ubicacion: com.fedegiorno.clase27abr.fragments
+Ubicacion: com.fedegiorno.clase27abr2021.fragments
 
 Este es el fragmento que presentara el logo de la aplicacion
  */
@@ -21,8 +21,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.fedegiorno.clase27abr.MainActivity
-import com.fedegiorno.clase27abr.R
+import com.fedegiorno.clase27abr2021.MainActivity
+import com.fedegiorno.clase27abr2021.R
 
 class SplashFragment : Fragment() {
 

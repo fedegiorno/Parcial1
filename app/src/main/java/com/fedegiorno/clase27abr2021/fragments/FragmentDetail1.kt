@@ -5,7 +5,7 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 FragmentDetail1.kt
-Ubicacion: com.fedegiorno.clase27abr.fragments
+Ubicacion: com.fedegiorno.clase27abr2021.fragments
 
 Este es el fragmento contendra el primer grupo de detalles de la lista
  */
@@ -17,7 +17,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.fedegiorno.clase27abr.R
+import com.fedegiorno.clase27abr2021.R
 
 
 /**

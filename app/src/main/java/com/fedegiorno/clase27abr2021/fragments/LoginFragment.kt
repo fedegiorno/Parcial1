@@ -5,7 +5,7 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 LoginFragment.kt
-Ubicacion: com.fedegiorno.clase27abr.fragments
+Ubicacion: com.fedegiorno.clase27abr2021.fragments
 
 Este es el fragmento que presentara el login de la aplicacion
  */
@@ -20,7 +20,7 @@ import androidx.navigation.findNavController
 
 import android.view.ViewGroup
 import android.widget.Button
-import com.fedegiorno.clase27abr.R
+import com.fedegiorno.clase27abr2021.R
 
 class LoginFragment : Fragment() {
 
@@ -41,8 +41,8 @@ class LoginFragment : Fragment() {
         super.onStart()
         btnAcceder.setOnClickListener{
 
-            val action2 = Fr
-                FragmentLoginDirections.actionFragmentoLoginToMainActivityListaCursos2()
+            //val action2 = Fr
+            //    FragmentLoginDirections.actionFragmentoLoginToMainActivityListaCursos2()
             v.findNavController().navigate(action2)
         }
     }

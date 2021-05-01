@@ -5,7 +5,7 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 PrincipalActivity.kt
-Ubicacion: com.fedegiorno.clase27abr.activities
+Ubicacion: com.fedegiorno.clase27abr2021.activities
 
 Esta es la activity que se presentara luego de haber realizado la presentacion de la aplicacion
 (SPLASH) y el login
@@ -22,7 +22,7 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
-import com.fedegiorno.clase27abr.R
+import com.fedegiorno.clase27abr2021.R
 import kotlinx.android.synthetic.main.activity_principal.*
 
 class PrincipalActivity : AppCompatActivity() {

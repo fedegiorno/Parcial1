@@ -19,7 +19,7 @@ Ubicacion: res.navigation
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.fedegiorno.clase27abr.fragments.splashFragment"
+        android:name="com.fedegiorno.clase27abr2021.fragments.splashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -28,7 +28,7 @@ Ubicacion: res.navigation
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.fedegiorno.clase27abr.fragments.loginFragment"
+        android:name="com.fedegiorno.clase27abr2021.fragments.loginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
 </navigation>

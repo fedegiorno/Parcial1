@@ -17,7 +17,7 @@ Ubicacion: res.layout
     android:id="@+id/cnlSplash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fedegiorno.clase27abr.MainActivity">
+    tools:context="com.fedegiorno.clase27abr2021.MainActivity">
 
     <!-- TODO: Update blank fragment layout -->
 

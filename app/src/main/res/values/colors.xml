@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Desarrollo de Aplicaciones para Dispositivos Moviles
+TRABAJO PRACTICO
+Clase:  27 de abril de 2021
+Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
+
+colors.xml
+Ubicacion: res.values
+
+-->
+
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
