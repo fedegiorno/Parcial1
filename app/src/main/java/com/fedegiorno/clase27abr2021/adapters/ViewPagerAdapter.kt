@@ -16,19 +16,19 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-import com.fedegiorno.clase27abr2021.fragments.FragmentDetail1
-import com.fedegiorno.clase27abr2021.fragments.FragmentDetail2
-import com.fedegiorno.clase27abr2021.fragments.FragmentDetail3
+import com.fedegiorno.clase27abr2021.fragments.DetailFragment1
+import com.fedegiorno.clase27abr2021.fragments.DetailFragment2
+import com.fedegiorno.clase27abr2021.fragments.DetailFragment3
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
     override fun createFragment(position: Int): Fragment {
 
         return when(position){
-            0 -> FragmentDetail1()
-            1 -> FragmentDetail2()
-            2 -> FragmentDetail3()
+            0 -> DetailFragment1()
+            1 -> DetailFragment2()
+            2 -> DetailFragment3()
 
-            else -> FragmentDetail1()
+            else -> DetailFragment1()
         }
     }
 

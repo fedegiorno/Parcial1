@@ -15,11 +15,24 @@ package com.fedegiorno.clase27abr2021.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.preference.PreferenceFragmentCompat
 import com.fedegiorno.clase27abr2021.R
 
 class PreferenceActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_preference)
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.settings, PreferenceFragment())
+            .commit()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+
+    class PreferenceFragment : PreferenceFragmentCompat() {
+        override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
+            setPreferencesFromResource(R.xml.root_preferences, rootKey)
+        }
     }
 }

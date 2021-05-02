@@ -4,7 +4,7 @@ TRABAJO PRACTICO
 Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
-SplashFragment.kt
+ContainerFragment.kt
 Ubicacion: com.fedegiorno.clase27abr2021.fragments
 
 Este es el fragmento que trabajara como contenedor de los fragmentos dedicados a mostrar los

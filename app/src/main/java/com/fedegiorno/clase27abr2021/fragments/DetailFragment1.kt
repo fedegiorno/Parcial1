@@ -4,7 +4,7 @@ TRABAJO PRACTICO
 Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
-FragmentDetail1.kt
+DetailFragment1.kt
 Ubicacion: com.fedegiorno.clase27abr2021.fragments
 
 Este es el fragmento contendra el primer grupo de detalles de la lista
@@ -23,7 +23,7 @@ import com.fedegiorno.clase27abr2021.R
 /**
  * A simple [Fragment] subclass.
  */
-class FragmentDetail1 : Fragment() {
+class DetailFragment1 : Fragment() {
 
     lateinit var v : View
 

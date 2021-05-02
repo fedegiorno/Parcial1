@@ -23,17 +23,17 @@ Ubicacion: res.navigation
         android:label="ContainerFragment" />
     <fragment
         android:id="@+id/fragmentDetail1"
-        android:name="com.fedegiorno.clase27abr2021.fragments.FragmentDetail1"
+        android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment1"
         android:label="fragment_detail1"
         tools:layout="@layout/fragment_detail1" />
     <fragment
         android:id="@+id/fragmentDetail2"
-        android:name="com.fedegiorno.clase27abr2021.fragments.FragmentDetail2"
+        android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment2"
         android:label="fragment_detail2"
         tools:layout="@layout/fragment_detail2" />
     <fragment
         android:id="@+id/fragmentDetail3"
-        android:name="com.fedegiorno.clase27abr2021.fragments.FragmentDetail3"
+        android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment3"
         android:label="fragment_detail3"
         tools:layout="@layout/fragment_detail3" />
 </navigation>

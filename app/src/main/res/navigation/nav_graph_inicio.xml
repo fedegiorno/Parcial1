@@ -11,7 +11,8 @@ Ubicacion: res.navigation
 
 -->
 
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_inicio"
@@ -19,16 +20,15 @@ Ubicacion: res.navigation
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.fedegiorno.clase27abr2021.fragments.splashFragment"
+        android:name="com.fedegiorno.clase27abr2021.fragments.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
-            android:id="@+id/action_splashFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            android:id="@+id/action_splashFragment_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
     </fragment>
     <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.fedegiorno.clase27abr2021.fragments.loginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        android:id="@+id/fragmentLogin"
+        android:name="com.fedegiorno.clase27abr2021.fragments.LoginFragment"
+        android:label="FragmentLogin" />
 </navigation>

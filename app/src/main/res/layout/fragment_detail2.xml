@@ -15,7 +15,7 @@ Ubicacion: res.layout
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FragmentDetail2">
+    tools:context=".fragments.DetailFragment2">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
