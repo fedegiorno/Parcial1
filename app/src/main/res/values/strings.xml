@@ -15,7 +15,7 @@ Ubicacion: res.values
     <string name="app_name">Clase27ABR2021</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="splash">FUERZA AEREA ARGENTINA</string>
+    <string name="splash">CIIE - REGION VI</string>
     <string name="Tab1">PRESENTACION</string>
     <string name="Tab2">TEMARIO</string>
     <string name="Tab3">REQUISITOS</string>

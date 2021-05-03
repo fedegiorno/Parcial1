@@ -36,4 +36,18 @@ Ubicacion: res.navigation
         android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment3"
         android:label="fragment_detail3"
         tools:layout="@layout/fragment_detail3" />
+    <activity
+        android:id="@+id/preferenceActivity"
+        android:name="com.fedegiorno.clase27abr2021.activities.PreferenceActivity"
+        android:label="activity_preference"
+        tools:layout="@layout/activity_preference" />
+    <fragment
+        android:id="@+id/preferenceFragment"
+        android:name="com.fedegiorno.clase27abr2021.fragments.PreferenceFragment"
+        android:label="fragment_preference"
+        tools:layout="@layout/fragment_preference" >
+        <action
+            android:id="@+id/action_preferenceFragment_to_preferenceActivity"
+            app:destination="@id/preferenceActivity" />
+    </fragment>
 </navigation>
