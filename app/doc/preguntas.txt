@@ -1,0 +1,17 @@
+SETTINGEXAMPLE
+
+1) porque no se definio un navhost en la activity (MainActivity) para navegar con el fragment de
+preferencias main_fragment?
+
+2) Que es el fragment MainViewModel?
+
+3) Tiene un xml asociado?
+
+4) En el nav_graph_inicio, como puedo agregar la siguiente activity PrincipalActivity,
+no figura en agregar y ademas en agregar me figura el fragmento fragment_splash como una activity
+
+5) El contexto que se define en el xml de un fragment debe ser el mismo fragmento o la activity
+que lo contiene? En los ejemplos no pude sacar conclusiones
+
+6) En el xml del nav_graph_principal como se puede ver la jerarquizacion de los fragments,
+es decir como puedo ver que el ContainerFragment contiene a los fragmentDetails?
