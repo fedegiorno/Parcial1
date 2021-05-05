@@ -5,19 +5,19 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 NavDrawFragment1
-Ubicacion: com.fedegiorno.clase27abr2021.fragments
+Ubicacion: com.fedegiorno.parcial1.fragments
 
 Este fragmento mostrara lo correspondiente a la tercer division del Navigation Drawer
  */
 
-package com.fedegiorno.clase27abr2021.fragments
+package com.fedegiorno.parcial1.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.fedegiorno.clase27abr2021.R
+import com.fedegiorno.parcial1.R
 
 class NavDrawFragment3 : Fragment() {
     // TODO: Rename and change types of parameters

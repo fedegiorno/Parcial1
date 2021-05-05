@@ -19,6 +19,6 @@ Ubicacion: res.navigation
     app:startDestination="@id/loginFragment">
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.fedegiorno.clase27abr2021.fragments.LoginFragment"
+        android:name="com.fedegiorno.parcial1.fragments.LoginFragment"
         android:label="LoginFragment" />
 </navigation>

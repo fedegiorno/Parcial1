@@ -19,31 +19,31 @@ Ubicacion: res.navigation
 
     <fragment
         android:id="@+id/containerFragment"
-        android:name="com.fedegiorno.clase27abr2021.fragments.ContainerFragment"
+        android:name="com.fedegiorno.parcial1.fragments.ContainerFragment"
         android:label="ContainerFragment" />
     <fragment
         android:id="@+id/fragmentDetail1"
-        android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment1"
+        android:name="com.fedegiorno.parcial1.fragments.DetailFragment1"
         android:label="fragment_detail1"
         tools:layout="@layout/fragment_detail1" />
     <fragment
         android:id="@+id/fragmentDetail2"
-        android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment2"
+        android:name="com.fedegiorno.parcial1.fragments.DetailFragment2"
         android:label="fragment_detail2"
         tools:layout="@layout/fragment_detail2" />
     <fragment
         android:id="@+id/fragmentDetail3"
-        android:name="com.fedegiorno.clase27abr2021.fragments.DetailFragment3"
+        android:name="com.fedegiorno.parcial1.fragments.DetailFragment3"
         android:label="fragment_detail3"
         tools:layout="@layout/fragment_detail3" />
     <activity
         android:id="@+id/preferenceActivity"
-        android:name="com.fedegiorno.clase27abr2021.activities.PreferenceActivity"
+        android:name="com.fedegiorno.parcial1.activities.PreferenceActivity"
         android:label="activity_preference"
         tools:layout="@layout/activity_preference" />
     <fragment
         android:id="@+id/preferenceFragment"
-        android:name="com.fedegiorno.clase27abr2021.fragments.PreferenceFragment"
+        android:name="com.fedegiorno.parcial1.fragments.PreferenceFragment"
         android:label="fragment_preference"
         tools:layout="@layout/fragment_preference" >
         <action

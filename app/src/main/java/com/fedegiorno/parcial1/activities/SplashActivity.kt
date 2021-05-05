@@ -1,15 +1,11 @@
-package com.fedegiorno.clase27abr2021.activities
+package com.fedegiorno.parcial1.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 import android.os.Handler
-import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
-import com.fedegiorno.clase27abr2021.MainActivity
-import com.fedegiorno.clase27abr2021.R
-import kotlinx.coroutines.delay
+import com.fedegiorno.parcial1.MainActivity
+import com.fedegiorno.parcial1.R
 
 class SplashActivity : AppCompatActivity() {
 

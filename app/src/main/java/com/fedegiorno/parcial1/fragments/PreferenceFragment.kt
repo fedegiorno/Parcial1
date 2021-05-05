@@ -1,4 +1,4 @@
-package com.fedegiorno.clase27abr2021.fragments
+package com.fedegiorno.parcial1.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.preference.PreferenceManager
 
-import com.fedegiorno.clase27abr2021.R
+import com.fedegiorno.parcial1.R
 
 class PreferenceFragment : Fragment() {
 

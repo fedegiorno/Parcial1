@@ -5,20 +5,20 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 ViewPagerAdapter.kt
-Ubicacion: com.fedegiorno.clase27abr2021.adapters
+Ubicacion: com.fedegiorno.parcial1.adapters
 
 Este adapter trabajara con los tabs
  */
 
-package com.fedegiorno.clase27abr2021.adapters
+package com.fedegiorno.parcial1.adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-import com.fedegiorno.clase27abr2021.fragments.DetailFragment1
-import com.fedegiorno.clase27abr2021.fragments.DetailFragment2
-import com.fedegiorno.clase27abr2021.fragments.DetailFragment3
+import com.fedegiorno.parcial1.fragments.DetailFragment1
+import com.fedegiorno.parcial1.fragments.DetailFragment2
+import com.fedegiorno.parcial1.fragments.DetailFragment3
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
     override fun createFragment(position: Int): Fragment {

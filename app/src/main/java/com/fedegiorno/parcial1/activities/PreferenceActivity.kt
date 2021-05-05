@@ -5,18 +5,18 @@ Clase:  27 de abril de 2021
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 PreferenceActivity.kt
-Ubicacion: com.fedegiorno.clase27abr2021.activities
+Ubicacion: com.fedegiorno.parcial1.activities
 
 Esta es la activity que se presentara los datos persistentes de la aplicacion
 (PREFERENCES)
  */
 
-package com.fedegiorno.clase27abr2021.activities
+package com.fedegiorno.parcial1.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat
-import com.fedegiorno.clase27abr2021.R
+import com.fedegiorno.parcial1.R
 
 class PreferenceActivity : AppCompatActivity() {
 

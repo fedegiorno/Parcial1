@@ -1,4 +1,4 @@
-package com.fedegiorno.clase27abr2021
+package com.fedegiorno.parcial1
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         Handler().postDelayed(
 
             {
-                startActivity(Intent(this,MainActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
                 finish()
             }
             , SPLASH_TIME_OUT)
