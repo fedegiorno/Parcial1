@@ -43,9 +43,9 @@ class LoginFragment : Fragment() {
         super.onStart()
         btnAcceder.setOnClickListener{
 
-            val action2 = LoginFragmentDirections.actionFragmentLoginToPrincipalActivity()
+            //val action2 = LoginFragmentDirections.actionFragmentLoginToPrincipalActivity()
 
-            v.findNavController().navigate(action2)
+            //v.findNavController().navigate(action2)
         }
     }
 }

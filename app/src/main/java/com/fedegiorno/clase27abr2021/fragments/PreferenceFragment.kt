@@ -49,8 +49,8 @@ class PreferenceFragment : Fragment() {
 
 
         Log.d("Test",prefs.getBoolean("sync",false).toString())
-        Log.d("Test",prefs.getString("reply",""))
-        Log.d("Test",prefs.getString("signature","default signature"))
+        Log.d("Test",prefs.getString("reply","").toString())
+        Log.d("Test",prefs.getString("signature","default signature").toString())
 
         btnSettings.setOnClickListener {
 

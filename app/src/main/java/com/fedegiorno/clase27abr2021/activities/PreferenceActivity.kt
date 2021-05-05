@@ -25,7 +25,7 @@ class PreferenceActivity : AppCompatActivity() {
         setContentView(R.layout.activity_preference)
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.settings, PreferenceFragment())
+            .replace(R.id.preferencias, PreferenceFragment())
             .commit()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

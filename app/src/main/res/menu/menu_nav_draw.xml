@@ -20,19 +20,19 @@ Ubicacion: res.layout
 
         <item
             android:id="@+id/fragment1"
-            android:icon="@drawable/faa"
+            android:icon="@drawable/f"
             android:title="Fragment1" />
         <item
             android:id="@+id/fragment2"
-            android:icon="@drawable/faa"
+            android:icon="@drawable/f"
             android:title="Fragment2" />
         <item
             android:id="@+id/fragment3"
-            android:icon="@drawable/faa"
+            android:icon="@drawable/f"
             android:title="Fragment3" />
         <item
             android:id="@+id/test"
-            android:icon="@drawable/faa"
+            android:icon="@drawable/f"
             android:title="noNav" />
 
     </group>

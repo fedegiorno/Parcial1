@@ -16,28 +16,9 @@ Ubicacion: res.navigation
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_inicio"
-    app:startDestination="@id/splashFragment">
-
+    app:startDestination="@id/loginFragment">
     <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.fedegiorno.clase27abr2021.fragments.SplashFragment"
-        android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" >
-        <action
-            android:id="@+id/action_splashFragment_to_fragmentLogin"
-            app:destination="@id/fragmentLogin" />
-    </fragment>
-    <fragment
-        android:id="@+id/fragmentLogin"
+        android:id="@+id/loginFragment"
         android:name="com.fedegiorno.clase27abr2021.fragments.LoginFragment"
-        android:label="FragmentLogin" >
-        <action
-            android:id="@+id/action_fragmentLogin_to_principalActivity"
-            app:destination="@id/principalActivity" />
-    </fragment>
-    <activity
-        android:id="@+id/principalActivity"
-        android:name="com.fedegiorno.clase27abr2021.activities.PrincipalActivity"
-        android:label="activity_principal"
-        tools:layout="@layout/activity_principal" />
+        android:label="LoginFragment" />
 </navigation>
