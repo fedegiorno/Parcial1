@@ -1,7 +1,6 @@
 /*
 Desarrollo de Aplicaciones para Dispositivos Moviles
-TRABAJO PRACTICO
-Clase:  27 de abril de 2021
+PRIMER PARCIAL
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 BottomNavbarFragment3

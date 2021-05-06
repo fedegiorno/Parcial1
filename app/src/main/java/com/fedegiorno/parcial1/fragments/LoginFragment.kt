@@ -1,7 +1,6 @@
 /*
 Desarrollo de Aplicaciones para Dispositivos Moviles
-TRABAJO PRACTICO
-Clase:  27 de abril de 2021
+PRIMER PARCIAL
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 LoginFragment.kt
@@ -19,6 +18,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.fedegiorno.parcial1.R
 import android.widget.Button
+import androidx.navigation.findNavController
 
 class LoginFragment : Fragment() {
 
@@ -42,9 +42,9 @@ class LoginFragment : Fragment() {
         super.onStart()
         btnAcceder.setOnClickListener{
 
-            //val action2 = LoginFragmentDirections.actionFragmentLoginToPrincipalActivity()
+            val action2 = LoginFragmentDirections.actionLoginFragmentToMainActivity2()
 
-            //v.findNavController().navigate(action2)
+            v.findNavController().navigate(action2)
         }
     }
 }

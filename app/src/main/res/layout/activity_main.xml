@@ -2,8 +2,7 @@
 
 <!--
 Desarrollo de Aplicaciones para Dispositivos Moviles
-TRABAJO PRACTICO
-Clase:  27 de abril de 2021
+PRIMER PARCIAL
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 activity_main.xml
@@ -27,15 +26,5 @@ Ubicacion: res.layout
         android:layout_height="match_parent"
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph_inicio" />
-
-    <TextView
-        android:id="@+id/txtSplash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CIIE Region VI"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fedegiorno.parcial1">
 
     <application
@@ -10,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name="com.fedegiorno.parcial1.MainActivity"></activity>
-        <activity android:name="com.fedegiorno.parcial1.activities.PreferenceActivity" />
-        <activity android:name="com.fedegiorno.parcial1.activities.SecondaryActivity" />
-        <activity android:name="com.fedegiorno.parcial1.activities.PrincipalActivity" />
-        <activity android:name="com.fedegiorno.parcial1.activities.SplashActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activities.MainActivity2"></activity>
+        <activity android:name=".activities.PreferenceActivity" />
+        <activity android:name=".activities.SecondaryActivity" />
+        <activity android:name=".activities.PrincipalActivity" />
     </application>
 
 </manifest>

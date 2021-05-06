@@ -2,8 +2,7 @@
 
 <!--
 Desarrollo de Aplicaciones para Dispositivos Moviles
-TRABAJO PRACTICO
-Clase:  27 de abril de 2021
+PRIMER PARCIAL
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
 nav_graph_inicio.xml
@@ -20,5 +19,14 @@ Ubicacion: res.navigation
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.fedegiorno.parcial1.fragments.LoginFragment"
-        android:label="LoginFragment" />
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.fedegiorno.parcial1.activities.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
 </navigation>

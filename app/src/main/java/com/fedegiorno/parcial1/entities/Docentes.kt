@@ -3,7 +3,7 @@ package com.fedegiorno.parcial1.entities
 import android.os.Parcel
 import android.os.Parcelable
 
-class Docente(name: String,
+class Docente( name: String,
                email: String,
                password: String) : Parcelable {
 
