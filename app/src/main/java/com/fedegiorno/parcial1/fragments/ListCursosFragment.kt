@@ -3,7 +3,7 @@ Desarrollo de Aplicaciones para Dispositivos Moviles
 PRIMER PARCIAL
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
-PrincipalFragment.kt
+ListCursosFragment.kt
 Ubicacion: com.fedegiorno.parcial1.fragments
 
 Este es el fragmento contendra el primer grupo de detalles de la lista
@@ -22,9 +22,8 @@ import com.fedegiorno.parcial1.R
 import com.fedegiorno.parcial1.adapters.CursoListAdapter
 import com.fedegiorno.parcial1.entities.Curso
 import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.fragment_principal.*
 
-class PrincipalFragment : Fragment() {
+class ListCursosFragment : Fragment() {
 
     lateinit var v: View
     lateinit var recPrincipal: RecyclerView
@@ -45,8 +44,8 @@ class PrincipalFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        v = inflater.inflate(R.layout.fragment_principal, container, false)
-        recPrincipal = v.findViewById(R.id.recPrincipal)
+        v = inflater.inflate(R.layout.fragment_list_cursos, container, false)
+        recPrincipal = v.findViewById(R.id.recMain2)
         return v
     }
 

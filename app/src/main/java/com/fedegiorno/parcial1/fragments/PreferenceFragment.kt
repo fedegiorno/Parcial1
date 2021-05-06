@@ -54,9 +54,9 @@ class PreferenceFragment : Fragment() {
 
         btnSettings.setOnClickListener {
 
-            val action = PreferenceFragmentDirections.actionPreferenceFragmentToPreferenceActivity()
+            //val action = PreferenceFragmentDirections.actionPreferenceFragmentToPreferenceActivity()
 
-            v.findNavController().navigate(action)
+            //v.findNavController().navigate(action)
 
         }
     }

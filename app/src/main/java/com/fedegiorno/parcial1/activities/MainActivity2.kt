@@ -19,15 +19,15 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        nav_controller_2 = Navigation.findNavController(this,R.id.nav_graph_principal)
+       // nav_controller_2 = Navigation.findNavController(this,R.id.nav_graph_main2)
 
-        nav_view.setupWithNavController(nav_controller_2)
+       // nav_view.setupWithNavController(nav_controller_2)
 
-       // NavigationUI.setupActionBarWithNavController(this, nav_controller_2, drlPrincipal)
+       // NavigationUI.setupActionBarWithNavController(this, nav_controller_2, drlMain2)
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        return NavigationUI.navigateUp(nav_controller_2, drlPrincipal)
+ /*   override fun onSupportNavigateUp(): Boolean {
+        return NavigationUI.navigateUp(nav_controller_2, drlMain2)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -37,11 +37,11 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if (drlPrincipal.isDrawerOpen(GravityCompat.START)) {
-            drlPrincipal.closeDrawer(GravityCompat.START)
+        if (drlMain2.isDrawerOpen(GravityCompat.START)) {
+            drlMain2.closeDrawer(GravityCompat.START)
         } else {
             super.onBackPressed()
         }
-    }
+    }*/
 
 }

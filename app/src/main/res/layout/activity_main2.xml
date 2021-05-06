@@ -13,13 +13,12 @@ Ubicacion: res.layout
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drlPrincipal"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.PrincipalActivity">
+    android:id="@+id/drlMain2"
+    tools:context=".activities.PrincipalActivity"
+    style="@style/drlMain2">
 
     <fragment
-        android:id="@+id/nav_graph_principal"
+        android:id="@+id/nav_graph_main2"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"

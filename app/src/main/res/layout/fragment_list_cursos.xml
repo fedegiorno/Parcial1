@@ -4,13 +4,15 @@
     android:id="@+id/cnlPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.PrincipalFragment">
+    tools:context=".fragments.ListCursosFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recPrincipal"
+        android:id="@+id/recMain2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-101dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

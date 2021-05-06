@@ -5,7 +5,7 @@ Desarrollo de Aplicaciones para Dispositivos Moviles
 PRIMER PARCIAL
 Temas: BottomNavigationBars, NavigationDrawer, Tabs, Preferences y Splash
 
-nav_graph_principal.xml
+nav_graph_main2.xml
 Ubicacion: res.navigation
 
 -->
@@ -13,40 +13,11 @@ Ubicacion: res.navigation
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph_principal"
-    app:startDestination="@id/containerFragment">
-
+    android:id="@+id/nav_graph_main2"
+    app:startDestination="@id/listCursosFragment">
     <fragment
-        android:id="@+id/containerFragment"
-        android:name="com.fedegiorno.parcial1.fragments.ContainerFragment"
-        android:label="ContainerFragment" />
-    <fragment
-        android:id="@+id/fragmentDetail1"
-        android:name="com.fedegiorno.parcial1.fragments.DetailFragment1"
-        android:label="fragment_detail1"
-        tools:layout="@layout/fragment_detail1" />
-    <fragment
-        android:id="@+id/fragmentDetail2"
-        android:name="com.fedegiorno.parcial1.fragments.DetailFragment2"
-        android:label="fragment_detail2"
-        tools:layout="@layout/fragment_detail2" />
-    <fragment
-        android:id="@+id/fragmentDetail3"
-        android:name="com.fedegiorno.parcial1.fragments.DetailFragment3"
-        android:label="fragment_detail3"
-        tools:layout="@layout/fragment_detail3" />
-    <activity
-        android:id="@+id/preferenceActivity"
-        android:name="com.fedegiorno.parcial1.activities.PreferenceActivity"
-        android:label="activity_preference"
-        tools:layout="@layout/activity_preference" />
-    <fragment
-        android:id="@+id/preferenceFragment"
-        android:name="com.fedegiorno.parcial1.fragments.PreferenceFragment"
-        android:label="fragment_preference"
-        tools:layout="@layout/fragment_preference" >
-        <action
-            android:id="@+id/action_preferenceFragment_to_preferenceActivity"
-            app:destination="@id/preferenceActivity" />
-    </fragment>
+        android:id="@+id/listCursosFragment"
+        android:name="com.fedegiorno.parcial1.fragments.ListCursosFragment"
+        android:label="fragment_list_cursos"
+        tools:layout="@layout/fragment_list_cursos" />
 </navigation>
