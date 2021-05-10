@@ -16,27 +16,26 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.fedegiorno.parcial1.R
 import com.fedegiorno.parcial1.adapters.CursoListAdapter
 import com.fedegiorno.parcial1.entities.Curso
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.fragment_list_cursos.*
 
 class ListCursosFragment : Fragment() {
 
     lateinit var v: View
-    lateinit var recPrincipal: RecyclerView
+    lateinit var recMain2: RecyclerView
     private lateinit var linearLayoutManager: LinearLayoutManager
 
     var cursos: MutableList<Curso> = ArrayList<Curso>()
     private lateinit var cursosListAdapter: CursoListAdapter
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-        }
+    companion object{
+        fun newInstance() = ListCursosFragment
     }
 
     override fun onCreateView(
@@ -45,7 +44,7 @@ class ListCursosFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_list_cursos, container, false)
-        recPrincipal = v.findViewById(R.id.recMain2)
+        recMain2 = v.findViewById(R.id.recMain2)
         return v
     }
 
@@ -79,27 +78,27 @@ class ListCursosFragment : Fragment() {
             Horario = "de 14 a 18 hs.",
             Carga = "45 Hs.",
             Requisitos = "Docente de Nivel Primario"))
-        cursos.add(Curso(Name = "Curso Tres",
-            Descripcion = "Etapa Tres - Nivel Primario",
-            Profesor = "Profesor Tres",
+        cursos.add(Curso(Name = "Curso Cuatro",
+            Descripcion = "Etapa Cuatro - Nivel Primario",
+            Profesor = "Profesor Cuatro",
             Puntaje = "4",
             Inicio = "01/01/2021",
             Fin = "31/03/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "30 Hs.",
             Requisitos = "Docente de Nivel Primario"))
-        cursos.add(Curso(Name = "Curso Cuatro",
-            Descripcion = "Etapa Cuatro - Nivel Secundario",
-            Profesor = "Profesor Cuatro",
+        cursos.add(Curso(Name = "Curso Cinco",
+            Descripcion = "Etapa Cinco - Nivel Secundario",
+            Profesor = "Profesor Cinco",
             Puntaje = "3",
             Inicio = "01/04/2021",
             Fin = "30/06/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "48 Hs.",
             Requisitos = "Docente de Nivel Secundario"))
-        cursos.add(Curso(Name = "Curso Cinco",
-            Descripcion = "Etapa Cinco - Nivel Secundario",
-            Profesor = "Profesor Cinco",
+        cursos.add(Curso(Name = "Curso Seis",
+            Descripcion = "Etapa Seis - Nivel Secundario",
+            Profesor = "Profesor Seis",
             Puntaje = "5",
             Inicio = "01/01/2021",
             Fin = "31/03/2021",
@@ -108,21 +107,24 @@ class ListCursosFragment : Fragment() {
             Requisitos = "Docente de Nivel Secundario"))
 
         // Configuracion del recyclerview
-        recPrincipal.setHasFixedSize(true)
+        recMain2.setHasFixedSize(true)
         linearLayoutManager= LinearLayoutManager(context)
-        recPrincipal.layoutManager = linearLayoutManager
+        recMain2.layoutManager = linearLayoutManager
 
-        cursosListAdapter = CursoListAdapter(cursos) { x ->
-            onItemClick(x)
+        cursosListAdapter = CursoListAdapter(cursos, requireContext()) { pos ->
+            onItemClick(pos)
         }
+//        cursosListAdapter = CursoListAdapter(cursos, requireContext()) { pos ->
+//            onItemClick(pos)
+//        }
 
-        recPrincipal.adapter = cursosListAdapter
-
+        recMain2.adapter = cursosListAdapter
+        //Se pasa el adaptador al recycler, se muestra en pantalla la lista
     }
 
     private fun onItemClick(position: Int): Boolean {
+        //Toast.makeText(v.context, "Posicion: ${position.toString()}",Toast.LENGTH_LONG).show()
         Snackbar.make(v,position.toString(), Snackbar.LENGTH_SHORT).show()
         return true
     }
-
 }
