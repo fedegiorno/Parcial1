@@ -59,6 +59,7 @@ class ListCursosFragment : Fragment() {
             Fin = "31/03/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "30 Hs.",
+            Nivel = "Inicial",
             Requisitos = "Docente de Nivel Inicial"))
         cursos.add(Curso(Name = "Curso Dos",
             Descripcion = "Etapa Dos - Nivel Inicial",
@@ -68,6 +69,7 @@ class ListCursosFragment : Fragment() {
             Fin = "31/03/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "40 Hs.",
+            Nivel = "Inicial",
             Requisitos = "Docente de Nivel Inicial"))
         cursos.add(Curso(Name = "Curso Tres",
             Descripcion = "Etapa Tres - Nivel Primario",
@@ -77,6 +79,7 @@ class ListCursosFragment : Fragment() {
             Fin = "30/06/2021",
             Horario = "de 14 a 18 hs.",
             Carga = "45 Hs.",
+            Nivel = "Primario",
             Requisitos = "Docente de Nivel Primario"))
         cursos.add(Curso(Name = "Curso Cuatro",
             Descripcion = "Etapa Cuatro - Nivel Primario",
@@ -86,6 +89,7 @@ class ListCursosFragment : Fragment() {
             Fin = "31/03/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "30 Hs.",
+            Nivel = "Primario",
             Requisitos = "Docente de Nivel Primario"))
         cursos.add(Curso(Name = "Curso Cinco",
             Descripcion = "Etapa Cinco - Nivel Secundario",
@@ -95,6 +99,7 @@ class ListCursosFragment : Fragment() {
             Fin = "30/06/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "48 Hs.",
+            Nivel = "Secundario",
             Requisitos = "Docente de Nivel Secundario"))
         cursos.add(Curso(Name = "Curso Seis",
             Descripcion = "Etapa Seis - Nivel Secundario",
@@ -104,6 +109,7 @@ class ListCursosFragment : Fragment() {
             Fin = "31/03/2021",
             Horario = "de 8 a 18 hs.",
             Carga = "30 Hs.",
+            Nivel = "Secundario",
             Requisitos = "Docente de Nivel Secundario"))
 
         // Configuracion del recyclerview
@@ -123,7 +129,7 @@ class ListCursosFragment : Fragment() {
     }
 
     private fun onItemClick(position: Int): Boolean {
-        //Toast.makeText(v.context, "Posicion: ${position.toString()}",Toast.LENGTH_LONG).show()
+        Toast.makeText(v.context, "Posicion: ${position.toString()}",Toast.LENGTH_LONG).show()
         Snackbar.make(v,position.toString(), Snackbar.LENGTH_SHORT).show()
         return true
     }

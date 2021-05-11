@@ -1,6 +1,7 @@
 package com.fedegiorno.parcial1.adapters
 
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.fedegiorno.parcial1.R
@@ -47,6 +50,7 @@ class CursoListAdapter(
 
         holder.setName(cursosList[position].Name)
         holder.setProfe(cursosList[position].Profesor)
+        holder.setNivel(cursosList[position].Nivel)
 
         Glide
             .with(context)
@@ -54,7 +58,11 @@ class CursoListAdapter(
             .centerInside()
             .into(holder.getImageView())
 
-        holder.getCardLayout().setOnLongClickListener(){
+        holder.getCardLayout().setOnClickListener(){
+            onItemClick(position)
+        }
+
+        holder.getImageView().setOnClickListener(){
             onItemClick(position)
         }
     }
@@ -78,6 +86,16 @@ class CursoListAdapter(
             txt.text = profe
         }
 
+        fun setNivel(nivel: String) {
+            val card: ConstraintLayout = view.findViewById(R.id.cnlCurso)
+            when (nivel) {
+                "Inicial" -> card.setBackgroundColor(Color.MAGENTA)
+                "Primario" -> card.setBackgroundColor(Color.GREEN)
+                "Secundario" -> card.setBackgroundColor(Color.YELLOW)
+            }
+
+        }
+
         fun getImageView (): ImageView {
             return view.findViewById(R.id.imgCurso)
         }
@@ -85,11 +103,6 @@ class CursoListAdapter(
         fun getCardLayout (): CardView {
             return view.findViewById(R.id.carCurso)
         }
-
-//        fun getButton (): Button {
-//            return view.findViewById(R.id.btn_item)
-//        }
-
 
     }
 

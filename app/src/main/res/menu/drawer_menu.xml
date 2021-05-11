@@ -10,7 +10,8 @@ Ubicacion: res.menu
 
 -->
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group
@@ -18,21 +19,17 @@ Ubicacion: res.menu
         android:checkableBehavior="single">
 
         <item
-            android:id="@+id/fragment1"
+            android:id="@+id/fragment_nav_draw1"
             android:icon="@drawable/f"
-            android:title="Fragment1" />
+            android:title="Nivel Inicial" />
         <item
-            android:id="@+id/fragment2"
+            android:id="@+id/fragment_nav_draw2"
             android:icon="@drawable/i"
-            android:title="Fragment2" />
+            android:title="Nivel Primario" />
         <item
-            android:id="@+id/fragment3"
+            android:id="@+id/fragment_nav_draw3"
             android:icon="@drawable/t"
-            android:title="Fragment3" />
-        <item
-            android:id="@+id/test"
-            android:icon="@drawable/v"
-            android:title="noNav" />
+            android:title="Nivel Secundario" />
 
     </group>
 

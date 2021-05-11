@@ -11,6 +11,7 @@ class Curso( Name: String?,
              Fin: String?,
              Horario: String?,
              Carga: String?,
+             Nivel: String?,
              Requisitos: String?)  {
 
     var Name: String = ""
@@ -21,6 +22,7 @@ class Curso( Name: String?,
     var Fin: String = ""
     var Horario: String = ""
     var Carga: String = ""
+    var Nivel: String = ""
     var Requisitos: String = ""
 
     init{
@@ -32,6 +34,7 @@ class Curso( Name: String?,
         this.Fin = Fin!!
         this.Horario = Horario!!
         this.Carga = Carga!!
+        this.Nivel = Nivel!!
         this.Requisitos = Requisitos!!
     }
 
